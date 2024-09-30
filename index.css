@@ -1,0 +1,60 @@
+body {
+    margin: 2px;
+    background-color: hotpink;
+    color: white
+    
+}
+
+a {
+    text-decoration: none;
+    color:currentColor;
+    
+}
+
+.link:hover {
+    color: gold;
+    text-decoration-line: underline;
+}
+
+.titolo h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 0,3px;
+    background-color: white
+    
+}
+
+p{
+    color:hotpink;
+}
+
+.principale {
+    display: flex;
+    align-items: center;
+
+}
+
+.principale img {
+    width: 150px;
+    height: auto;
+}
+
+.principale ul {
+        margin-right: 20px;
+    }
+
+ul {
+        list-style: none; 
+    }
+    
+ul li::before {
+        content: '★ '; 
+        color: gold; 
+        font-size: 20px; 
+        margin-right: 10px; 
+    }
+    
