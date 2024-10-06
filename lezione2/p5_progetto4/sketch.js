@@ -32,6 +32,7 @@ function draw() {
         ellipse(x - 20, y - 15, 8, 12);  
         ellipse(x + 20, y - 15, 8, 12);  
         
+        strokeWeight(0.5)
         fill("red");
         ellipse(x, y + 20, 15, 10);  
         
