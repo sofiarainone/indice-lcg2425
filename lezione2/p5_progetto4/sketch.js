@@ -32,14 +32,13 @@ function draw() {
         ellipse(x - 20, y - 15, 8, 12);  
         ellipse(x + 20, y - 15, 8, 12);  
         
-        strokeWeight(0)
         fill("red");
-        ellipse(x, y + 20, 15, 5);  
+        ellipse(x, y + 20, 15, 10);  
         
         strokeWeight(0);
         fill("red");
-        ellipse(x - 30, y + 5, 10, 10);  
-        ellipse(x + 30, y + 5, 10, 10);  
+        ellipse(x - 30, y + 5, 15, 10);  
+        ellipse(x + 30, y + 5, 15, 10);  
         
         strokeWeight(0.5);
         fill("red");
